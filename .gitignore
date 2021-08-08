@@ -1,0 +1,4 @@
+.idea
+webserver.db
+*.pyc
+__pycache__
