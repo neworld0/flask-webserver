@@ -5,9 +5,9 @@ bp = Blueprint('main', __name__, url_prefix='/')
 
 @bp.route('/hello')
 def hello_webserver():
-	return 'Hello, Webserver!'
+	return 'Hello, 321son Family!'
 
 @bp.route('/')
 def index():
-    # current_app.logger.info("INFO 레벨로 출력")	
+    # current_app.logger.info("INFO 레벨로 출력")
     return redirect(url_for('question._list'))
