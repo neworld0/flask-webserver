@@ -2,3 +2,4 @@
 webserver.db
 *.pyc
 __pycache__
+logs
